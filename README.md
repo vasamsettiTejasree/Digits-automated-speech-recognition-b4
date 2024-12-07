@@ -3,6 +3,8 @@
 Speech Digit Recognition using CNN and MFCC Features with SpaCy
 
 Overview
+
+
 This project performs speech digit recognition using a Convolutional Neural Network (CNN) with MFCC features extracted from audio files. An optional SpaCy step is included for text processing, which can be used to analyze speech-to-text data (if applicable).
 
 The primary components of this project are:
@@ -24,7 +26,9 @@ scikit-learn
 graphviz
 You can install these using pip: pip install numpy librosa matplotlib tensorflow spacy scikit-learn graphviz
 
-Additionally, you need to download the SpaCy model (if using text processing): python -m spacy download en_core_web_sm Instructions to Run the Code Step 1: Prepare the Dataset Place your audio files (in .wav format) in the data/recordings/ folder. The filenames should follow the format _<random_string>.wav, where represents the digit to be recognized (0-9).
+Additionally, you need to download the SpaCy model (if using text processing): python -m spacy download en_core_web_sm Instructions to Run the Code 
+
+Step 1: Prepare the Dataset Place your audio files (in .wav format) in the data/recordings/ folder. The filenames should follow the format _<random_string>.wav, where represents the digit to be recognized (0-9).
 
 Step 2: Data Preprocessing Run the data_preprocessing.py script to load and extract MFCC features from the audio data.
 
